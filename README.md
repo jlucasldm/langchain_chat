@@ -1,7 +1,9 @@
 # Ofir, the all-knowing (Berserk Chatbot)
-Projeto desenvolvido durante o curso "Criação de aplicações baseadas em LLMs", ofertado pela Universidade Federal da Bahia, ministrado por [Gustavo Pinto](https://github.com/gustavopinto).
 
-Ofir é um sábio que viveu durante a Era de Ouro do Bando do Falcão. Ouviu e testemunhou histórias de bravura, traição e sacrifício. Agora, ele está aqui para responder suas perguntas sobre o mundo de Berserk. Faça perguntas sobre os personagens, a história, e o mundo de Berserk. Ofir está ansioso para compartilhar seu conhecimento com você.
+Ofir é um sábio que viveu durante a Era de Ouro do Bando do Falcão. Ouviu e testemunhou histórias de bravura, traição e sacrifício. Faça perguntas sobre os personagens, a história, e o mundo de Berserk. Ofir está ansioso para compartilhar seu conhecimento com você.
+
+Projeto desenvolvido durante o curso "Criação de aplicações baseadas em LLMs", ofertado pela Universidade Federal da Bahia, ministrado por [Gustavo Pinto](https://github.com/gustavopinto). Chatbot desenvolvido utilizando o modelo GPT-3.5-turbo da OpenAI, refinado sobre as sinopses detalhadas dos volumes 1 ao 109 de Berserk, coletados de um [fórum de fãs](https://berserk.fandom.com/).
+
 
 ## Sobre o projeto
 
@@ -44,4 +46,4 @@ Para iniciar um ambiente virtual, execute:
 	
 
 ## Modelo e dataset
-O modelo utilizado é o GPT-3.5-turbo, disponibilizado pela OpenAI. O dataset foi coletado manualmente em um [fórum de discussão sobre o mangá Berserk](https://berserk.fandom.com/) e contém informações sobre os personagens, a história e o mundo do mangá até o final do arco Golden Age. Foram coletadas as sinopses de todos os capítulos em língua inglesa (do primeiro ao 109º) em documentos de texto e utilizadas como referência para a geração de respostas do chatbot. Os dados estão disponíveis na pasta `berserk`.
+O modelo utilizado é o GPT-3.5-turbo, disponibilizado pela OpenAI. O dataset foi coletado manualmente em um [fórum de discussão sobre o mangá Berserk](https://berserk.fandom.com/) e contém informações sobre os personagens, a história e o mundo do mangá até o final do arco Golden Age. Foram coletadas as sinopses detalhadas de todos os capítulos em língua inglesa (do primeiro ao 109º) em documentos de texto e utilizadas como referência para a geração de respostas do chatbot. Os dados estão disponíveis na pasta `berserk`.
