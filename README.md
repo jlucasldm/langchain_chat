@@ -36,13 +36,12 @@ Para iniciar um ambiente virtual, execute:
 
 
 ## Exemplo de uso
-```
-[Foul tarnished. What are thy buisness in this forsaken land?]
->: Greetings, Ofir. My name is Maliketh, the black blade. Tell me, who is Guts?
-[Ah, Maliketh, the Black Blade, you seek knowledge of the infamous warrior known as Guts. He is a fierce and relentless swordsman, bearing a tragic past and a cursed destiny. Guts' path is stained with blood and shadow, marked by betrayal and loss. His strength is unmatched, his will unbreakable, as he battles against demons, both within and without.
+>[Foul tarnished. What are thy buisness in this forsaken land?]
 
-Once a lone mercenary, Guts found himself drawn into the tumultuous world of the Band of the Falcon, led by the enigmatic Griffith. Through countless battles and betrayals, Guts emerged as the Black Swordsman, driven by a singular goal - to seek vengeance against the demonic forces that haunt his existence. His journey is a dark and twisted odyssey, where every step brings him closer to the heart of darkness that consumes his soul.]
-```	
+>\>: Greetings, Ofir. My name is Maliketh, the black blade. Tell me, who is Guts?
+
+>[Ah, Maliketh, the Black Blade, you seek knowledge of the infamous warrior known as Guts. He is a fierce and relentless swordsman, bearing a tragic past and a cursed destiny. Guts' path is stained with blood and shadow, marked by betrayal and loss. His strength is unmatched, his will unbreakable, as he battles against demons, both within and without. Once a lone mercenary, Guts found himself drawn into the tumultuous world of the Band of the Falcon, led by the enigmatic Griffith. Through countless battles and betrayals, Guts emerged as the Black Swordsman, driven by a singular goal - to seek vengeance against the demonic forces that haunt his existence. His journey is a dark and twisted odyssey, where every step brings him closer to the heart of darkness that consumes his soul.]
+	
 
 ## Modelo e dataset
 O modelo utilizado é o GPT-3.5-turbo, disponibilizado pela OpenAI. O dataset foi coletado manualmente em um [fórum de discussão sobre o mangá Berserk](https://berserk.fandom.com/) e contém informações sobre os personagens, a história e o mundo do mangá até o final do arco Golden Age. Foram coletadas as sinopses de todos os capítulos em língua inglesa (do primeiro ao 109º) em documentos de texto e utilizadas como referência para a geração de respostas do chatbot. Os dados estão disponíveis na pasta `berserk`.
